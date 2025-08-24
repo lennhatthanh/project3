@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <title>Lê Nguyễn Nhật Thành</title>
+        <meta
+            name="description"
+            content="Frontend Developer chuyên về React, Vue.js. Xem portfolio các dự án web development và mobile app của tôi."
+        />
+        <meta
+            name="keywords"
+            content="frontend developer, react developer, vue.js, javascript, portfolio, web development"
+        />
+        <meta name="author" content="Nguyễn Văn A" />
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow" />
+        <meta
+            property="og:image"
+            content="https://yourdomain.com/path-to-thumbnail.jpg"
+        />
+        <link rel="stylesheet" href="./fonts/webfonts/arimo/stylesheet.css" />
+        <link rel="stylesheet" href="./fonts/webfonts/inter/stylesheet.css" />
+        <link rel="stylesheet" href="./style.css" />
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="header_container">
+                    <div class="logo">
+                        <img src="./images/logo-black.png" alt="" />
+                    </div>
+                    <nav class="nav">
+                        <ul>
+                            <li>
+                                Demo
+                                <img
+                                    src="./images/icon-caret-down.svg"
+                                    alt=""
+                                />
+                            </li>
+                            <li>About Us</li>
+                            <li>
+                                Pages
+                                <img
+                                    src="./images/icon-caret-down.svg"
+                                    alt=""
+                                />
+                            </li>
+                            <li>
+                                Blog
+                                <img
+                                    src="./images/icon-caret-down.svg"
+                                    alt=""
+                                />
+                            </li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </nav>
+                    <div class="menu_btn">
+                        <button>
+                            <img src="./images/icon-menu.svg" alt="" />
+                            <span>Menu</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="hero__container">
+                    <div class="hero__content">
+                        <div class="container">
+                            <div class="hero__content-inner">
+                                <div class="hero__text">
+                                    <p class="hero__subtitle">
+                                        Your trusted business consultants
+                                    </p>
+                                    <h1 class="hero__title">
+                                        Transforming your ideas into
+                                        <span>experiences</span>
+                                    </h1>
+                                    <p class="hero__text-child">
+                                        We're dedicated to helping businesses
+                                        grow and succeed. With years of industry
+                                        experience and a passion for
+                                        problem-solving, we offer top-level
+                                        consulting services tailored to your
+                                        unique needs.
+                                    </p>
+                                    <div class="hero__actions">
+                                        <a href="#" class="btn btn--primary">
+                                            <span>Schedule a meeting</span>
+                                        </a>
+                                        <a href="#" class="btn btn--outline">
+                                            <span>View all projects</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="hero__play">
+                                    <img
+                                        src="./images/play-button.png"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="./images/icon-play-button.svg"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <div class="section__space">
+                    <div class="container">
+                        <div class="about__content">
+                            <span>Our mission & vision </span>
+                            <h2 class="about__text">
+                                Our mission is to help businesses thrive in a
+                                fast-paced
+                                <img
+                                    src="./images/about-text-inner-img-1.png"
+                                    alt=""
+                                />
+                                competitive world by providing expert guidance
+                                <img
+                                    src="./images/about-text-inner-img-2.png"
+                                    alt=""
+                                />
+                                & we're here to provide it.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="logo__slider">
+                <div class="logo__slider-content">
+                    <div class="container">
+                        <div class="logo__slider-title">
+                            <span>We help hundreds of companies to grow</span>
+                        </div>
+                    </div>
+                    <div class="swiper-wrapper">
+                        <div>
+                            <img src="./images/clinet-logo-1.png" alt="" />
+                        </div>
+                        <div>
+                            <img src="./images/clinet-logo-1.png" alt="" />
+                        </div>
+                        <div>
+                            <img src="./images/clinet-logo-1.png" alt="" />
+                        </div>
+                        <div>
+                            <img src="./images/clinet-logo-1.png" alt="" />
+                        </div>
+                        <div>
+                            <img src="./images/clinet-logo-1.png" alt="" />
+                        </div>
+                        <div>
+                            <img src="./images/clinet-logo-1.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="services">
+                <div class="section__space">
+                    <div class="container">
+                        <div class="services__header">
+                            <div class="service__content">
+                                <div class="service__content-title">
+                                    <span>Our amazing services</span>
+                                    <h2>
+                                        We provide various essential services
+                                    </h2>
+                                </div>
+                                <div class="service__content-button">
+                                    <button>View all services</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service__grid">
+                            <div
+                                class="service__card"
+                                data-aos="flip-right"
+                                data-aos-delay="500"
+                                data-aos-duration="700"
+                            >
+                                <div class="service__card-icon">
+                                    <img
+                                        src="./images/th-4-service-icon-1.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="service__card-content">
+                                    <div class="service__card-title">
+                                        Strategic Planning
+                                    </div>
+                                    <div class="service__card-text">
+                                        Actionable strategies that align with
+                                        your business objectives, ensuring
+                                        you're on the path to success.
+                                    </div>
+                                </div>
+                                <div class="service__card-link">
+                                    <img
+                                        src="./images/icon-black-normal-arrow-right.svg"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="./images/icon-blue-arrow-right.svg"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="service__card"
+                                data-aos="flip-right"
+                                data-aos-delay="500"
+                                data-aos-duration="700"
+                            >
+                                <div class="service__card-icon">
+                                    <img
+                                        src="./images/th-4-service-icon-2.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="service__card-content">
+                                    <div class="service__card-title">
+                                        Operational Excellence
+                                    </div>
+                                    <div class="service__card-text">
+                                        We optimize your processes & work
+                                        improve efficiency, and reduce costs to
+                                        enhance overall performance.
+                                    </div>
+                                </div>
+                                <div class="service__card-link">
+                                    <img
+                                        src="./images/icon-black-normal-arrow-right.svg"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="./images/icon-blue-arrow-right.svg"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="service__card"
+                                data-aos="flip-right"
+                                data-aos-delay="500"
+                                data-aos-duration="700"
+                            >
+                                <div class="service__card-icon">
+                                    <img
+                                        src="./images/th-4-service-icon-3.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="service__card-content">
+                                    <div class="service__card-title">
+                                        Financial Advisory
+                                    </div>
+                                    <div class="service__card-text">
+                                        Our experts provide financial guide,
+                                        help manage investments, & risk to
+                                        ensure your financial health.
+                                    </div>
+                                </div>
+                                <div class="service__card-link">
+                                    <img
+                                        src="./images/icon-black-normal-arrow-right.svg"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="./images/icon-blue-arrow-right.svg"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="service__card"
+                                data-aos="flip-right"
+                                data-aos-delay="500"
+                                data-aos-duration="700"
+                            >
+                                <div class="service__card-icon">
+                                    <img
+                                        src="./images/th-4-service-icon-4.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="service__card-content">
+                                    <div class="service__card-title">
+                                        Technology Solutions
+                                    </div>
+                                    <div class="service__card-text">
+                                        We offer IT consulting to guide new
+                                        technology adoption for enhance all
+                                        cybersecurity for your business.
+                                    </div>
+                                </div>
+                                <div class="service__card-link">
+                                    <img
+                                        src="./images/icon-black-normal-arrow-right.svg"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="./images/icon-blue-arrow-right.svg"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="service__card"
+                                data-aos="flip-right"
+                                data-aos-delay="500"
+                                data-aos-duration="700"
+                            >
+                                <div class="service__card-icon">
+                                    <img
+                                        src="./images/th-4-service-icon-5.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="service__card-content">
+                                    <div class="service__card-title">
+                                        Marketing and Sales
+                                    </div>
+                                    <div class="service__card-text">
+                                        We help you develop effective and boost
+                                        brand visibility to connect with your
+                                        target audience.
+                                    </div>
+                                </div>
+                                <div class="service__card-link">
+                                    <img
+                                        src="./images/icon-black-normal-arrow-right.svg"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="./images/icon-blue-arrow-right.svg"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="service__card"
+                                data-aos="flip-right"
+                                data-aos-delay="500"
+                                data-aos-duration="700"
+                            >
+                                <div class="service__card-icon">
+                                    <img
+                                        src="./images/th-4-service-icon-6.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="service__card-content">
+                                    <div class="service__card-title">
+                                        Specialized Expertise
+                                    </div>
+                                    <div class="service__card-text">
+                                        With industry-specific knowledge, we
+                                        provide tailored solutions for all
+                                        sectors like healthcare, finance.
+                                    </div>
+                                </div>
+                                <div class="service__card-link">
+                                    <img
+                                        src="./images/icon-black-normal-arrow-right.svg"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="./images/icon-blue-arrow-right.svg"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="why__choose__us">
+                <div class="section__space">
+                    <div class="container">
+                        <div class="why__choose__us-container">
+                            <div
+                                class="why__choose__us-image"
+                                data-aos="fade-right"
+                                data-aos-duration="700"
+                                data-aos-delay="500"
+                            >
+                                <img src="./images/content-img-1.jpg" alt="" />
+                                <img src="./images/th-4-content-shape-2.svg" />
+                            </div>
+                            <div
+                                class="why__choose__us-content"
+                                data-aos="fade-left"
+                                data-aos-duration="700"
+                                data-aos-delay="500"
+                            >
+                                <div class="why__choose__us-content-title">
+                                    <span>Why choose us</span>
+                                    <h2>
+                                        We help companies achieve their goals
+                                    </h2>
+                                </div>
+                                <div class="why__choose__us-content-list">
+                                    <span
+                                        >In today's complex and rapidly changing
+                                        business environment, we help businesses
+                                        adapt, grow & succeed. Our expertise,
+                                        objectivity, and ability to provide
+                                        customized solutions.</span
+                                    >
+                                    <ul>
+                                        <li>
+                                            <strong>Industry Expertise:</strong>
+                                            Our team of seasoned consultants
+                                            brings wealth of knowledge and
+                                            experience across various
+                                            industries.
+                                        </li>
+                                        <li>
+                                            <strong
+                                                >Results-Driven
+                                                Approach:</strong
+                                            >
+                                            Our proven methodologies and
+                                            data-driven strategies ensure that
+                                            your business reaches.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="why__choose__us-contact">
+                            <ul>
+                                <li>
+                                    <div class="why__choose__us-contact-number">
+                                        1
+                                    </div>
+                                    <div>
+                                        <div
+                                            class="why__choose__us-contact-title"
+                                        >
+                                            Initial Contact
+                                        </div>
+                                        <div
+                                            class="why__choose__us-contact-text"
+                                        >
+                                            Contact us & we’ll listen carefully
+                                            to understand your unique needs &
+                                            goals.
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="why__choose__us-contact-number">
+                                        2
+                                    </div>
+                                    <div>
+                                        <div
+                                            class="why__choose__us-contact-title"
+                                        >
+                                            Solutions & Collaboration
+                                        </div>
+                                        <div
+                                            class="why__choose__us-contact-text"
+                                        >
+                                            We become your partners in progress,
+                                            collaborating to implement
+                                            solutions.
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="why__choose__us-contact-number">
+                                        3
+                                    </div>
+                                    <div>
+                                        <div
+                                            class="why__choose__us-contact-title"
+                                        >
+                                            Monitoring & Results
+                                        </div>
+                                        <div
+                                            class="why__choose__us-contact-text"
+                                        >
+                                            We continuously monitoring and leads
+                                            to your business achieving its
+                                            goals.
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="project">
+                <div class="section__space">
+                    <div class="container">
+                        <div class="project__header">
+                            <div class="project__header-subtitle">
+                                Our stunning creation
+                            </div>
+                            <div class="project__header-title">
+                                <h2>Our dedication shines through our work</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-swiper">
+                        <div class="project__flex">
+                            <div class="project__flex-item">
+                                <div class="project__flex-item-img">
+                                    <img
+                                        src="./images/project-img-1.jpg"
+                                        alt=""
+                                    />
+                                    <div class="project__flex-item-hover">
+                                        <a href="">
+                                            <img
+                                                src="./images/icon-blue-trending-up.svg"
+                                                alt=""
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="project__flex-item-text">
+                                    <h4>Market Expansion Blueprint</h4>
+                                    <span>
+                                        Develop a comprehensive strategy to
+                                        expand your market reach, identify new
+                                        opportunities, and grow
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="project__flex-item">
+                                <div class="project__flex-item-img">
+                                    <img
+                                        src="./images/project-img-2.jpg"
+                                        alt=""
+                                    />
+                                    <div class="project__flex-item-hover">
+                                        <a href="">
+                                            <img
+                                                src="./images/icon-blue-trending-up.svg"
+                                                alt=""
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="project__flex-item-text">
+                                    <h4>Financial Health Check</h4>
+                                    <span>
+                                        A thorough financial analysis to assess
+                                        the financial stability of your business
+                                        and secure your future.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project__scroll">
+                            <div class="project__scroll__bar"></div>
+                        </div>
+                    </div>
+                </div>
+                <img
+                    src="./images/th-4-content-shape-3.svg"
+                    alt=""
+                    data-aos="fade-dow"
+                    data-aos-duration="700"
+                    data-aos-delay="700"
+                    alt=""
+                />
+            </section>
+            <section class="testimonial">
+                <div class="testimonial__container">
+                    <div class="section__space">
+                        <div class="container">
+                            <div class="testimonial__header">
+                                <div class="testimonial__header-text">
+                                    <span>Client success stories </span>
+                                    <h2>
+                                        Don't just trust us, hear from others
+                                    </h2>
+                                </div>
+                                <a href="">View all reviews</a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <div class="counter" data-count="80">
+                                            80
+                                        </div>
+                                        k
+                                    </div>
+                                    <span>Years of experience</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <img
+                                            src="./images/block-quote-img.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <span
+                                        >"We consider Aximo as trusted advisors
+                                        and partners in our business. Their
+                                        insights have been instrumental in our
+                                        decision-making process, and their
+                                        collaborative approach has made a
+                                        meaningful difference in our business's
+                                        trajectory."</span
+                                    >
+                                    <div>
+                                        <div class="testimonial__img">
+                                            <img
+                                                src="./images/testimonial-user-img-1.jpg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="testimonial__info">
+                                            <span>William Jack </span>
+                                            <span>CEO & Founder @XYZ </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <img
+                                            src="./images/block-quote-img.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <span
+                                        >"Working with Aximo has been a
+                                        game-changer for our company. Their
+                                        tailored solutions & hands-on approach
+                                        have not only boosted our efficiency but
+                                        have also opened up new avenues for
+                                        growth. They are an invaluable partner
+                                        in our journey to success."</span
+                                    >
+                                    <div>
+                                        <div class="testimonial__img">
+                                            <img
+                                                src="./images/testimonial-user-img-2.jpg"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="testimonial__info">
+                                            <span>Andrew Smith</span>
+                                            <span>Businessman</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <div class="counter" data-count="200">
+                                            200
+                                        </div>
+
+                                        +
+                                    </div>
+                                    <span>Successfully finished projects</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <img src="./images/th-4-content-shape-4.svg" alt="" />
+                </div>
+            </section>
+            <section class="blog">
+                <div class="section__bottom">
+                    <div class="container">
+                        <div class="blog__header">
+                            <span>Read our blog</span>
+                            <h2
+                                data-aos="fade-up"
+                                data-aos-duration="700"
+                                data-aos-delay="500"
+                            >
+                                We're passionate about knowledge sharing
+                            </h2>
+                        </div>
+                        <div class="blog__grid">
+                            <div
+                                class="blog__grid-item"
+                                data-aos="fade-up"
+                                data-aos-duration="700"
+                                data-aos-delay="500"
+                            >
+                                <a href=""
+                                    ><img src="./images/blog-img-1.jpg" alt=""
+                                /></a>
+                                <div>
+                                    <div class="blog__button">
+                                        <a href="">Marketing</a>
+                                    </div>
+                                    <span>June 18, 2025</span>
+                                </div>
+                                <div class="blog__content">
+                                    <a href="">
+                                        How does business intelligence help
+                                        companies change strategy?
+                                    </a>
+                                    <a href="">
+                                        Read more
+                                        <span>
+                                            <img
+                                                src="./images/icon-black-normal-arrow-right.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/icon-blue-arrow-right.svg"
+                                                alt=""
+                                            /> </span
+                                    ></a>
+                                </div>
+                            </div>
+                            <div
+                                class="blog__grid-item"
+                                data-aos="fade-up"
+                                data-aos-duration="700"
+                                data-aos-delay="500"
+                            >
+                                <a href=""
+                                    ><img src="./images/blog-img-2.jpg" alt=""
+                                /></a>
+                                <div>
+                                    <div class="blog__button">
+                                        <a href="">Teachnology</a>
+                                    </div>
+                                    <span>June 15, 2025</span>
+                                </div>
+                                <div class="blog__content">
+                                    <a href="">
+                                        Maximizing profits - the small business
+                                        guide to Artificial Intelligence </a
+                                    ><a href=""
+                                        >Read more<span>
+                                            <img
+                                                src="./images/icon-black-normal-arrow-right.svg"
+                                                alt=""
+                                            />
+                                            <img
+                                                src="./images/icon-blue-arrow-right.svg"
+                                                alt=""
+                                            /> </span
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="instagram">
+                <div class="instagram__flex">
+                    <img src="./images/instagram-img-1.jpg" alt="" />
+                    <div class="instagram__logo-hover">
+                        <div class="instagram__logo">
+                            <img
+                                src="./images/icon-logo-buttery-white-instagram.svg"
+                                alt=""
+                                width="17"
+                                height="18"
+                            />
+                        </div>
+                        <div class="instagram__name">@Aximo</div>
+                    </div>
+                </div>
+                <div class="instagram__flex">
+                    <img src="./images/instagram-img-2.jpg" alt="" />
+                    <div class="instagram__logo-hover">
+                        <div class="instagram__logo">
+                            <img
+                                src="./images/icon-logo-buttery-white-instagram.svg"
+                                alt=""
+                                width="17"
+                                height="18"
+                            />
+                        </div>
+                        <div class="instagram__name">@Aximo</div>
+                    </div>
+                </div>
+                <div class="instagram__flex">
+                    <img src="./images/instagram-img-3.jpg" alt="" />
+                    <div class="instagram__logo-hover">
+                        <div class="instagram__logo">
+                            <img
+                                src="./images/icon-logo-buttery-white-instagram.svg"
+                                alt=""
+                                width="17"
+                                height="18"
+                            />
+                        </div>
+                        <div class="instagram__name">@Aximo</div>
+                    </div>
+                </div>
+                <div class="instagram__flex">
+                    <img src="./images/instagram-img-4.jpg" alt="" />
+                    <div class="instagram__logo-hover">
+                        <div class="instagram__logo">
+                            <img
+                                src="./images/icon-logo-buttery-white-instagram.svg"
+                                alt=""
+                                width="17"
+                                height="18"
+                            />
+                        </div>
+                        <div class="instagram__name">@Aximo</div>
+                    </div>
+                </div>
+                <div class="instagram__flex">
+                    <img src="./images/instagram-img-5.jpg" alt="" />
+                    <div class="instagram__logo-hover">
+                        <div class="instagram__logo">
+                            <img
+                                src="./images/icon-logo-buttery-white-instagram.svg"
+                                alt=""
+                                width="17"
+                                height="18"
+                            />
+                        </div>
+                        <div class="instagram__name">@Aximo</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <div class="section__top">
+                    <div class="footer__form">
+                        <div class="container">
+                            <form action="">
+                                <input
+                                    type="text"
+                                    name=""
+                                    id=""
+                                    placeholder="Enter your email"
+                                />
+                                <button>Subscribe now</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="footer__center">
+                        <div class="container">
+                            <div class="footer__center__content">
+                                <div class="footer__about">
+                                    <a href="">
+                                        <img
+                                            src="./images/logo-white.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                    <p>
+                                        We are a branding agency that digitally
+                                        works to help companies grow. We have a
+                                        successful track record of working with
+                                        various organizations.
+                                    </p>
+                                    <div>
+                                        <a href="">
+                                            <img
+                                                src="./images/icon-logo-buttery-white-twitter.svg"
+                                                alt=""
+                                            />
+                                        </a>
+                                        <a href="">
+                                            <img
+                                                src="./images/icon-logo-buttery-white-facebook.svg"
+                                                alt=""
+                                            />
+                                        </a>
+                                        <a href="">
+                                            <img
+                                                src="./images/icon-logo-buttery-white-instagram.svg"
+                                                alt=""
+                                            />
+                                        </a>
+                                        <a href="">
+                                            <img
+                                                src="./images/icon-logo-buttery-white-linkedin.svg"
+                                                alt=""
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="footer__link">
+                                    <span>Special Links</span>
+                                    <div>
+                                        <a href="">About us</a
+                                        ><a href="">Our services</a
+                                        ><a href="">Portfolio</a
+                                        ><a href="">Blogs</a>
+                                        <a href="">Premium member</a>
+                                    </div>
+                                </div>
+                                <div class="footer__link">
+                                    <span>Utility pages</span>
+                                    <div>
+                                        <a href="">404 Page</a
+                                        ><a href="">Coming Soon</a
+                                        ><a href="">Sign In</a
+                                        ><a href="">Sign Up</a>
+                                        <a href="">Reset Password</a>
+                                    </div>
+                                </div>
+                                <div class="footer__link">
+                                    <span>Contact us</span>
+                                    <div>
+                                        <a href="">
+                                            <img
+                                                src="./images/icon-salmon-phone.svg"
+                                                alt=""
+                                            /><span> +088-234-6849 </span>
+                                        </a>
+                                        <a href="">
+                                            <img
+                                                src="./images/icon-salmon-mail.svg"
+                                                alt=""
+                                            /><span>example@gmail.com </span>
+                                        </a>
+                                        <a href="">
+                                            <img
+                                                src="./images/icon-salmon-location-marker.svg"
+                                                alt=""
+                                            /><span
+                                                >Howard Street, 13125 USA</span
+                                            >
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__line"></div>
+                    <div class="footer__bottom">
+                        <p>© Copyright 2025, All Rights Reserved by Aximo</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
+<script>
+    $(document).ready(function () {
+        $(".counter").counterUp({
+            delay: 10, // Thời gian trì hoãn giữa mỗi lần tăng (ms)
+            time: 2000, // Tổng thời gian hiệu ứng đếm (ms)
+        });
+    });
+    AOS.init({
+        duration: 1200, // Thời gian hiệu ứng (ms)
+        easing: "ease-in-out", // Kiểu chuyển động
+        once: true, // Chỉ chạy hiệu ứng một lần
+    });
+</script>
