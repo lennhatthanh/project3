@@ -192,6 +192,8 @@ button {
 
 .hero__container .hero__content h1 > span {
     background-image: url("./images/th-4-hero-highlight-mark.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .hero__content-inner {
     height: 100%;
@@ -205,6 +207,53 @@ button {
     margin-top: 60px;
     display: flex;
     gap: 1.5rem;
+}
+.hero__actions a div {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.hero__actions a span:first-child {
+    transform: translateY(0);
+    transition: 300ms;
+}
+.hero__actions a span:last-child {
+    position: absolute;
+    transform: translateY(100%);
+    transition: 300ms;
+}
+.hero__actions a:hover div span:last-child {
+    transform: translateY(0);
+    transition: 300ms;
+}
+.hero__actions a:hover div span:first-child {
+    transform: translateY(-100%);
+    transition: 300ms;
+}
+
+.service__content-button a div {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.service__content-button a span:first-child {
+    transform: translateY(0);
+    transition: 300ms;
+}
+.service__content-button a span:last-child {
+    position: absolute;
+    transform: translateY(100%);
+    transition: 300ms;
+}
+.service__content-button a:hover div span:last-child {
+    transform: translateY(0);
+    transition: 300ms;
+}
+.service__content-button a:hover div span:first-child {
+    transform: translateY(-100%);
+    transition: 300ms;
 }
 .hero__actions a,
 .footer__form form button {
@@ -320,9 +369,10 @@ button {
     font-size: 75px;
     color: rgb(25 25 49);
     letter-spacing: -2px;
+    font-family: var(--font-family-primary);
 }
 
-.service__content-button button {
+.service__content-button a {
     padding: 1rem 1.5rem;
     color: rgb(255 255 255);
     font-weight: 700;
@@ -371,6 +421,7 @@ button {
     margin: 1.5rem 0px;
 }
 .service__card-title {
+    font-family: var(--font-family-primary);
     margin-bottom: 1rem;
     font-size: 30px;
     line-height: 1.33;
@@ -877,7 +928,9 @@ button {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: 1.5rem;
 }
-
+.blog__grid-item img {
+    transition-duration: 300ms;
+}
 .blog__grid-item > div:first-of-type {
     margin: 1.5rem 0 1.25rem;
     display: flex;
@@ -1064,7 +1117,11 @@ footer > div {
     background: #0000ff;
     border: 2px solid #0000ff;
 }
-
+.footer__form form button:hover {
+    background-color: rgb(255 255 255);
+    color: #0000ff;
+    transition-duration: 300ms;
+}
 .footer__center {
     padding: 100px 0;
 }
