@@ -915,6 +915,47 @@ a {
     font-weight: 700;
     color: rgb(0 0 0);
 }
+.blog__content-link {
+    position: relative;
+    display: inline-flex;
+    overflow: hidden;
+}
+.blog__grid-item a:first-child {
+    overflow: hidden;
+    display: block;
+    border-radius: 10px;
+    transition-duration: 300ms;
+}
+.blog__grid-item:hover a:first-child img {
+    --tw-scale-x: 1.1;
+    --tw-scale-y: 1.1;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+        rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+        scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
+.blog__grid-item:hover .blog__content a:first-child {
+    color: #0000ff;
+}
+.blog__grid-item:hover .blog__content-link img:first-child {
+    transform: translateX(100%);
+    transition-duration: 300ms;
+}
+.blog__grid-item:hover .blog__content-link img:last-child {
+    transform: translateX(0);
+    transition-duration: 300ms;
+}
+.blog__content-link img:first-child {
+    transform: translateX(0);
+    transition-duration: 300ms;
+}
+.blog__content-link img:last-child {
+    position: absolute;
+    transform: translateX(-100%);
+    transition-duration: 300ms;
+}
 
 .blog__content a:last-child img {
     width: 24px;
@@ -1010,7 +1051,8 @@ footer > div {
     border: 2px solid rgb(255 247 234);
     border-radius: 50px;
     width: 100%;
-    font-size: 1.65rem;
+    font-size: 1.25rem;
+    color: rgb(255 255 255);
 }
 
 .footer__form form input::placeholder {
