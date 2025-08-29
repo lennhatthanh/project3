@@ -413,6 +413,7 @@ button {
     justify-content: space-between;
     align-items: end;
     margin-bottom: 80px;
+    gap: 1.25rem;
 }
 @media (max-width: 1366px) {
     .services__header .service__content {
